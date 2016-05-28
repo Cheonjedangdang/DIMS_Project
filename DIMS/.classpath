@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/GitHub/DIMS/lib/mysql-connector-java-5.1.38-bin.jar"/>
-	<classpathentry kind="lib" path="C:/GitHub/DIMS/lib/orsoncharts-1.4-eval-nofx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/이현규/Desktop/DIMSProject/DIMS/lib/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/이현규/Desktop/DIMSProject/DIMS/lib/orsoncharts-1.4-eval-nofx.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
