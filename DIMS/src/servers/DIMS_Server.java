@@ -8,20 +8,17 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 
 import com.orsoncharts.util.json.JSONArray;
 import com.orsoncharts.util.json.JSONObject;
 
 import clients.customcontrols.CalendarObject;
 import clients.customcontrols.CalendarObject.CalendarDataManager;
-import clients.customcontrols.ScheduleObject;
 import databases.DatabaseHandler;
 import tools.NetworkProtocols;
 import tools.Toolbox;
@@ -1083,8 +1080,6 @@ public class DIMS_Server {
 						 {
 							 if(c.getClientGrade().equals("관리자"))
 							 {
-				                   String category = "대기중";
-					               
 				                   String qry2;
 				                   ResultSet rs = null;
 				                   
